@@ -500,3 +500,24 @@ footer {
     margin-top: 134px;
     margin-left: 343px;
 }
+.footerh2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 22px;
+    margin-left: 475px;
+}
+.footerp {
+    font-size: 16px;
+    width: 511px;
+    height: 51px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 530px;
+}
+#email {
+    width: 667px;
+    height: 80px;
+    margin-left: 460px;
+}
