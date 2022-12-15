@@ -555,10 +555,36 @@ footer {
 }
 .footer-s3 {
     display: flex;
+    margin-left: 110px;
 }
 .footer-s3p {
     width: 381px;
     height: 137px;
     margin-top: 20px;
     font-size: 16px;
+}
+.company,
+.list2,
+.contact {
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.footer-s3h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.footerli {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.list2 {
+    margin-top: 80px;
+}
+.footer-s3ul2 {
+    width: 381px;
+    height: 96px;
+    margin-left: 14px;
 }
