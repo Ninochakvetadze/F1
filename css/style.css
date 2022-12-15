@@ -6,7 +6,7 @@ body {
     background-image: url(../images/image5.png), url(../images/circle.svg),
         url(../images/image4.svg), url(../images/image7.png);
     background-position: right top 250px, right -100px top,
-        right 200px top 200px, left -50px bottom 200px;
+        right 200px top 200px, left -50px bottom 550px;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 800px, 800px, 700px, 400px;
 }
@@ -27,7 +27,6 @@ nav {
     height: 50px;
     background-color: #ffffff;
     border-radius: 50%;
-    margin-right: 60px;
 }
 .fa-google {
     margin-top: 10px;
@@ -42,6 +41,7 @@ ul {
 }
 li {
     margin-right: 50px;
+    margin-left: 60px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -489,7 +489,7 @@ footer {
     margin-top: 180px;
 }
 
-.footerimages {
+.footer-s1 {
     display: flex;
 }
 .footerimg1 {
@@ -522,6 +522,7 @@ footer {
     width: 667px;
     height: 80px;
     margin-left: 460px;
+    margin-bottom: 80px;
     background-color: #c4a3fd;
 }
 
@@ -549,4 +550,13 @@ footer {
     border: none;
     margin-top: 23px;
     margin-left: 58px;
+}
+.footer-s3 {
+    display: flex;
+}
+.footer-s3p {
+    width: 381px;
+    height: 137px;
+    margin-top: 20px;
+    font-size: 16px;
 }
