@@ -415,6 +415,7 @@ p {
 .chevrondiv {
     display: flex;
     margin-left: 690px;
+    margin-bottom: 186px;
 }
 .s6-chevron-left {
     width: 50px;
@@ -430,6 +431,57 @@ p {
     border-radius: 50%;
 }
 .s6-chevron {
+    color: #ffffff;
     margin-top: 17px;
     margin-left: 19px;
+}
+
+.s7-h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 710px;
+}
+.s7-h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 62px;
+    margin-left: 600px;
+}
+.card-wrapper2 {
+    display: flex;
+    margin-bottom: 62px;
+}
+.s7card {
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border-radius: 5%;
+    margin-left: 60px;
+}
+.s7p {
+    font-size: 16px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.s7h2 {
+    width: 219px;
+    height: 59px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 7px;
+    margin-left: 30px;
+}
+.s7-plus {
+    width: 50px;
+    height: 50px;
+    background-color: #956ae1;
+    margin-left: 250px;
+}
+.s7plus {
+    margin-top: 15px;
+    margin-left: 15px;
 }
