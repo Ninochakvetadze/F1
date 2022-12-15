@@ -124,6 +124,9 @@ p {
     background-color: #c4a3fd;
     border-radius: 50%;
 }
+.arrow:hover {
+    cursor: pointer;
+}
 .fa-play {
     margin-top: 16px;
     margin-left: 22px;
@@ -163,7 +166,9 @@ p {
     background-color: #c4a3fd;
     border-radius: 50%;
 }
-
+.s2-chevron:hover {
+    cursor: pointer;
+}
 .s2-chevron-right,
 .s2-chevron-left {
     color: #ffffff;
@@ -215,6 +220,9 @@ p {
     margin-top: 40px;
     padding: 19px 70px;
     background-color: #ffffff;
+}
+.input3:hover {
+    cursor: pointer;
 }
 #letstalk {
     font-size: 16px;
@@ -336,6 +344,9 @@ p {
     margin-top: 13px;
     margin-left: 500px;
 }
+.plus:hover {
+    cursor: pointer;
+}
 .plus1 {
     margin-top: 25px;
     margin-left: 25px;
@@ -439,6 +450,10 @@ p {
     background-color: #c4a3fd;
     border-radius: 50%;
 }
+.s6-chevron-left,
+.s6-chevron-right:hover {
+    cursor: pointer;
+}
 .s6-chevron {
     color: #ffffff;
     margin-top: 17px;
@@ -493,6 +508,9 @@ p {
 .s7plus {
     margin-top: 15px;
     margin-left: 15px;
+}
+.s7-plus:hover {
+    cursor: pointer;
 }
 footer {
     margin-top: 180px;
@@ -637,6 +655,12 @@ footer {
     background-color: #c4a3fd;
     border-radius: 50%;
     padding: 13px 11px;
+}
+.footer-logo1,
+.footer-logo2,
+.footer-logo3,
+.footer-logo4:hover {
+    cursor: pointer;
 }
 .lastp {
     font-size: 16px;
