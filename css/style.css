@@ -53,12 +53,14 @@ a {
     color: #ffffff;
 }
 .input1 {
+    width: 174px;
+    height: 60px;
     background-color: #c4a3fd;
     color: white;
-    padding: 20px 50px;
+    padding: 18px 38px;
     font-size: 14px;
     border: 2px solid #ffffff;
-    border-radius: 50%;
+    border-radius: 30px;
     margin-left: 250px;
 }
 .input1:hover {
@@ -115,9 +117,10 @@ p {
     height: 60px;
     background-color: #ffffff;
     margin-right: 20px;
+    border-radius: 30px;
+    padding: 20px 100px;
 }
 #portfolio1 {
-    padding: 19px 100px;
     font-size: 16px;
     color: #b28af8;
     border: none;
@@ -226,6 +229,7 @@ p {
     margin-bottom: 229px;
     padding: 19px 70px;
     background-color: #ffffff;
+    border-radius: 30px;
 }
 .input3:hover {
     cursor: pointer;
@@ -320,6 +324,7 @@ p {
     width: 800px;
     height: 250px;
     background-color: gray;
+    border-radius: 20px;
 }
 .icon-1,
 .icon-3 {
@@ -349,6 +354,7 @@ p {
     background-color: #956ae1;
     margin-top: 13px;
     margin-left: 500px;
+    border-radius: 20px 0px;
 }
 .plus:hover {
     cursor: pointer;
@@ -487,7 +493,7 @@ p {
     width: 300px;
     height: 400px;
     background-color: gray;
-    border-radius: 5%;
+    border-radius: 25px;
     margin-left: 60px;
 }
 .s7p {
@@ -510,6 +516,7 @@ p {
     height: 50px;
     background-color: #956ae1;
     margin-left: 250px;
+    border-radius: 10px 0px;
 }
 .s7plus {
     margin-top: 15px;
@@ -557,6 +564,7 @@ footer {
     margin-left: 460px;
     margin-bottom: 80px;
     background-color: #c4a3fd;
+    border-radius: 40px;
 }
 
 #email {
@@ -575,6 +583,7 @@ footer {
     background-color: #ffffff;
     margin-top: 10px;
     margin-left: 281px;
+    border-radius: 30px;
 }
 #subscribe {
     font-size: 16px;
