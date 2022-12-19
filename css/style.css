@@ -305,7 +305,7 @@ p {
     width: 100%;
     background-color: #956ae1;
 }
- 
+
 /* section5 */
 .s-5 {
     margin-top: 366px;
@@ -335,7 +335,7 @@ p {
     display: flex;
     width: 800px;
     height: 250px;
-    background-color: gray;
+    background-color: #956ae1;
     border-radius: 20px;
 }
 .icon-1,
@@ -363,7 +363,7 @@ p {
 .plus {
     width: 70px;
     height: 70px;
-    background-color: #956ae1;
+    background-color: #cfb3ff;
     margin-top: 13px;
     margin-left: 500px;
     border-radius: 20px 0px;
@@ -402,9 +402,10 @@ p {
 
 .card-1 {
     width: 300px;
-    height: 250px;
+    height: 350px;
     border-radius: 5%;
     margin-left: 60px;
+    background-color: #956ae1;
 }
 .color1 {
     width: 300px;
@@ -506,7 +507,7 @@ p {
 .s7card {
     width: 300px;
     height: 400px;
-    background-color: gray;
+    background-color: #956ae1;
     border-radius: 25px;
     margin-left: 60px;
 }
@@ -528,7 +529,7 @@ p {
 .s7-plus {
     width: 50px;
     height: 50px;
-    background-color: #956ae1;
+    background-color: #c4a3fd;
     margin-left: 250px;
     border-radius: 10px 0px;
 }
