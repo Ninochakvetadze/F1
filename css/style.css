@@ -714,6 +714,9 @@ footer {
     .footertext1 {
         width: 700px;
     }
+    .lastp {
+        width: 400px;
+    }
 }
 @media (max-width: 1033px) {
     .s3-h3 {
@@ -727,5 +730,26 @@ footer {
     }
     .s7-h2 {
         width: 350px;
+    }
+}
+@media (max-width: 889px) {
+    .s2h3 {
+        width: 350px;
+    }
+    .s5h3 {
+        width: 350px;
+    }
+}
+@media (max-width: 835px) {
+    .s6h3 {
+        width: 350px;
+    }
+    .s7-h3 {
+        width: 350px;
+    }
+}
+@media (max-width: 800px) {
+    .chevrondiv {
+        width: 300px;
     }
 }
