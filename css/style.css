@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     max-width: 1170px;
     width: 100%;
@@ -19,6 +26,8 @@ input {
 header {
     margin-top: 45px;
     margin-left: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
 }
@@ -27,6 +36,8 @@ header {
 }
 
 nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 813px;
 }
@@ -44,6 +55,8 @@ nav {
     color: #b28af8;
 }
 .nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 15px;
 }
@@ -114,6 +127,8 @@ p {
     height: 58px;
 }
 .s1input {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .input2 {
@@ -167,9 +182,12 @@ p {
     margin-left: 545px;
 }
 .text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1170px;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-left: 150px;
 }
 .s2-chevron {
@@ -194,6 +212,8 @@ p {
     margin-left: 50px;
 }
 .text-wrapper2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .space {
@@ -272,6 +292,8 @@ p {
     width: 1170px;
     height: 250px;
     background-color: #956ae1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 190px;
 }
@@ -330,6 +352,8 @@ p {
     margin-bottom: 62px;
 }
 .wrapup {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 40px;
 }
@@ -337,6 +361,8 @@ p {
 .icon-2,
 .icon-3,
 .icon-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
     height: 250px;
@@ -381,6 +407,8 @@ p {
     margin-left: 25px;
 }
 .wrapdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 78px;
 }
@@ -401,6 +429,8 @@ p {
     margin-bottom: 62px;
 }
 .card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 60px;
 }
@@ -465,6 +495,8 @@ p {
     margin-left: 70px;
 }
 .chevrondiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 690px;
     margin-bottom: 186px;
@@ -506,6 +538,8 @@ p {
     margin-left: 600px;
 }
 .card-wrapper2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 62px;
 }
@@ -552,6 +586,8 @@ footer {
 }
 
 .footer-s1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .footerimg1 {
@@ -584,6 +620,8 @@ footer {
 }
 
 .footerinput {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 667px;
     height: 80px;
@@ -620,6 +658,8 @@ footer {
     margin-left: 58px;
 }
 .footer-s3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 110px;
 }
@@ -663,6 +703,8 @@ footer {
     margin-left: 110px;
 }
 .footerlogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 110px;
 }
