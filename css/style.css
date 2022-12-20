@@ -41,19 +41,19 @@ nav {
     display: flex;
     width: 813px;
 }
-.google {
+.geolab {
     width: 50px;
     height: 50px;
-    background-color: #ffffff;
+    background-color: #cfb3ff;
     border-radius: 50%;
 }
-.fa-google {
-    margin-top: 10px;
-    margin-left: 11px;
-    font-size: 30px;
-    font-weight: bold;
-    color: #b28af8;
+.geolablogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 5px;
 }
+
 .nav-ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,7 +187,7 @@ p {
     display: flex;
     width: 1170px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin-left: 150px;
 }
 .s2-chevron {
@@ -369,6 +369,7 @@ p {
     background-color: #956ae1;
     border-radius: 20px;
 }
+
 .icon-1,
 .icon-3 {
     margin-right: 60px;
@@ -442,6 +443,15 @@ p {
     margin-left: 60px;
     background-color: #956ae1;
 }
+.card-1:hover {
+    width: 300px;
+    height: 350px;
+    background-color: #956ae1;
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: all 1s ease;
+    cursor: pointer;
+}
 .color1 {
     width: 300px;
     height: 180px;
@@ -507,17 +517,16 @@ p {
     background-color: #c4a3fd;
     border-radius: 50%;
     margin-right: 20px;
+    cursor: pointer;
 }
 .s6-chevron-right {
     width: 50px;
     height: 50px;
     background-color: #c4a3fd;
     border-radius: 50%;
-}
-.s6-chevron-left,
-.s6-chevron-right:hover {
     cursor: pointer;
 }
+
 .s6-chevron {
     color: #ffffff;
     margin-top: 17px;
@@ -550,6 +559,15 @@ p {
     border-radius: 25px;
     margin-left: 60px;
 }
+.s7card:hover {
+    width: 400px;
+    height: 400px;
+    background-color: #956ae1;
+    border-radius: 25px;
+    transform: scale(1.05);
+    transition: all 1s ease;
+    cursor: pointer;
+}
 .s7p {
     font-size: 16px;
     margin-top: 45px;
@@ -576,15 +594,18 @@ p {
     margin-top: 15px;
     margin-left: 15px;
 }
-.s7-plus:hover {
-    cursor: pointer;
-}
 
 /* footer */
 footer {
     margin-top: 180px;
 }
-
+.fa-google {
+    margin-top: 10px;
+    margin-left: 11px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #b28af8;
+}
 .footer-s1 {
     display: -webkit-box;
     display: -ms-flexbox;
