@@ -815,4 +815,20 @@ footer {
     .chevrondiv {
         width: 300px;
     }
+    nav {
+        display: none;
+    }
+    .burger-icon {
+        color: #fff;
+        display: block;
+        font-size: 40px;
+        position: absolute;
+        cursor: pointer;
+    }
+    .text1 {
+        margin-left: 800px;
+    }
+}
+@media (max-width:375px) {
+
 }
