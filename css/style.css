@@ -860,6 +860,10 @@ footer {
 @media (max-width: 768px) {
     .s-1 {
         margin-left: 700px;
+        flex-wrap: wrap;
+    }
+    .s-2 {
+        flex-wrap: wrap;
     }
     .s2h3 {
         width: 280px;
