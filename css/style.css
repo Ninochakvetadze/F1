@@ -41,6 +41,9 @@ nav {
     display: flex;
     width: 813px;
 }
+li > a:active {
+    color: #956ae1;
+}
 .geolab {
     width: 50px;
     height: 50px;
@@ -829,6 +832,5 @@ footer {
         margin-left: 800px;
     }
 }
-@media (max-width:375px) {
-
+@media (max-width: 375px) {
 }
