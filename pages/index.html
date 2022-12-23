@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+
+        <script
+            src="https://kit.fontawesome.com/4fb1e1c9df.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/pagestyle.css" />
+    </head>
+    <body>
+        <div id="grad1"></div>
+        <div class="container">
+            <section class="s1">
+                <div class="text">
+                    <h1>
+                        Get started with digital marketing strategies to grow
+                        your business.
+                    </h1>
+                    <h2>Grow My Business!</h2>
+                </div>
+                <div class="input-wrapper">
+                    <div class="input1">
+                        <div class="innerinput">
+                            <label for="fname">First name:</label><br />
+                            <input type="text" id="fname" name="fname" />
+                        </div>
+                        <div class="innerinput">
+                            <label for="lname">Last name:</label><br />
+                            <input type="text" name="lname" id="lname" />
+                        </div>
+                    </div>
+
+                    <div class="input2">
+                        <label for="company">Company:</label><br />
+                        <input type="text" name="company" id="company" />
+                    </div>
+
+                    <div class="input3">
+                        <div class="innerinput">
+                            <label for="email">Email:</label><br />
+                            <input type="email" id="email" name="email" />
+                        </div>
+                        <div class="innerinput">
+                            <label for="phone">Phone:</label><br />
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="123-45-678"
+                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                                required
+                            />
+                        </div>
+                    </div>
+
+                    <div class="input4">
+                        <div class="innerinput">
+                            <label for="zip">Postal code:</label><br />
+                            <input
+                                id="zip"
+                                name="zip"
+                                type="number"
+                                pattern="[0-9]*"
+                            />
+                        </div>
+                        <div class="innerinput">
+                            <label for="state">State:</label><br />
+                            <select
+                                id="state"
+                                name="statelist"
+                                form="stateform"
+                            >
+                                <option value="select">Select...</option>
+                                <option value="AK">AK</option>
+                                <option value="NY">NY</option>
+                                <option value="IL">IL</option>
+                                <option value="TX">TX</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input5">
+                        <div class="innerinput">
+                            <input type="submit" name="Submit" id="submit" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="back">
+                <a href="../index.html" class="previous">Home</a>
+            </div>
+        </div>
+    </body>
+</html>
